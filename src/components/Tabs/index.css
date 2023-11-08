@@ -1,0 +1,16 @@
+.tab-item{
+    list-style-type: none;
+
+}
+.active-tab{
+    border-bottom: 1px solid red;
+}
+
+@media (min-width:768px){
+    .tab-item{
+        margin: 5px 2px;
+    }
+    .active-tab{
+        border-left: 1px solid red;
+    }
+}

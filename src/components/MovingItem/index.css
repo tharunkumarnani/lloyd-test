@@ -1,0 +1,71 @@
+.moving-item {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+}
+.from-to-id {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.place-cont {
+  text-align: left;
+}
+.heading {
+  font-weight: 700;
+}
+.icon {
+  align-self: center;
+}
+.home-dist-date {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icon-value {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon2 {
+  color: red;
+}
+.value {
+  margin-left: 3px;
+}
+.btns {
+  flex-shrink: 0;
+}
+.view {
+  border: 1px solid red;
+  border-radius: 5px;
+  height: 40px;
+  padding: 10px 10px;
+  font-size: 15px;
+  outline: none;
+  color: red;
+}
+.quotes {
+  border: 1px solid red;
+  border-radius: 5px;
+  height: 40px;
+  padding: 10px 10px;
+  font-size: 15px;
+  outline: none;
+  color: #fff;
+  background-color: red;
+}
+.line-separator {
+  width: 100%;
+  border: 1px solid #0000;
+}
+.di-claim {
+  display: flex;
+}
+.sp-an {
+  font-weight: 700;
+}

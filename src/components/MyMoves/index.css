@@ -1,0 +1,46 @@
+.home-cont {
+  font-family: Roboto;
+  height: 100vh;
+}
+.left-cont {
+  width: 100%;
+}
+.tab-items {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+.foot-contact {
+  display: none;
+}
+.right-cont {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .home-cont {
+    display: flex;
+    flex-direction: row;
+  }
+  .left-cont {
+    width: 30%;
+    flex-shrink: 0;
+    max-height: 100vh;
+  }
+  .tab-items {
+    display: flex;
+    flex-direction: column;
+  }
+  .foot-contact {
+    display: inline;
+    color: blue;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  .right-cont {
+    width: 70%;
+    min-height: 100vh;
+  }
+}

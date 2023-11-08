@@ -1,0 +1,49 @@
+.login-home {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Roboto;
+}
+.user-form {
+  width: 90%;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.label-style {
+  width: 90%;
+  color: #000000;
+}
+.input-style {
+  width: 90%;
+  height: 40px;
+  color: #000000;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 7px;
+}
+.sub-btn {
+  background-color: blue;
+  color: #fff;
+  width: 90%;
+  height: 40px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  border-radius: 7px;
+  margin: 10px 0px;
+}
+.err-msg {
+  color: red;
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .user-form {
+    width: 60%;
+  }
+}
