@@ -3,7 +3,8 @@
   "private": true,
   "version": "1.0.0",
   "engines": {
-    "npm": ">=6"
+    "npm": ">=6",
+    "node":">=24"
   },
   "dependencies": {
     "@craco/craco": "6.1.1",
